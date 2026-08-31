@@ -1,8 +1,10 @@
-import java.util.*;
-public class cal 
+
+public class cal
+
 {
       static int pointer=50;
    static  int zerocounter=0;
+
  public static void solve(String line)
  {
   
@@ -13,14 +15,15 @@ public class cal
     
     if (direction =='R')
     {
-     
+   
        pointer = (pointer + number) % 100;
+       
      
      
     }
     else if (direction =='L')
    {
-       
+
             pointer = (pointer - number + 100) % 100;
         
         
@@ -30,7 +33,7 @@ public class cal
    
  }   
  public static int getZeroCount()
- {
- return zerocounter;
- }
+ {return zerocounter;}
+
 }
+
