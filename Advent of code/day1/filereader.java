@@ -12,6 +12,7 @@ public class filereader {
 
             while ((line = br.readLine()) != null) {
                 cal.solve(line);
+               
             }
 
         } catch (IOException e) {

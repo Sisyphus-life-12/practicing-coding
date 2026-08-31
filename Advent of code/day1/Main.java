@@ -7,5 +7,7 @@ public class Main
         String filepath = "C:\\Users\\neera\\OneDrive\\Desktop\\test.txt";
 
         filereader.readFile(filepath);
+        System.out.println("The number of time dial is left pointing at zero is :"+ cal.getZeroCount());
+        sc.close();
     }
 }
